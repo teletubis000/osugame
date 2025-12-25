@@ -1,0 +1,52 @@
+"""
+Game configuration constants
+"""
+
+# Screen dimensions
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+
+# Game area (playfield)
+PLAYFIELD_WIDTH = 512
+PLAYFIELD_HEIGHT = 384
+PLAYFIELD_X = (SCREEN_WIDTH - PLAYFIELD_WIDTH) // 2
+PLAYFIELD_Y = 50
+
+# Colors
+COLOR_BG = (30, 30, 30)
+COLOR_PLAYFIELD = (50, 50, 50)
+COLOR_CIRCLE = (255, 100, 100)
+COLOR_SLIDER = (100, 200, 255)
+COLOR_SPINNER = (255, 200, 100)
+COLOR_HIT_ZONE = (100, 100, 100)
+COLOR_TEXT = (255, 255, 255)
+COLOR_PERFECT = (255, 255, 100)
+COLOR_GREAT = (100, 255, 100)
+COLOR_OKAY = (100, 200, 255)
+COLOR_MISS = (255, 100, 100)
+
+# Hit object properties
+CIRCLE_RADIUS = 30
+SLIDER_WIDTH = 20
+SPINNER_RADIUS = 50
+
+# Hit window timings (in milliseconds)
+HIT_WINDOW_PERFECT = 50
+HIT_WINDOW_GREAT = 100
+HIT_WINDOW_OKAY = 150
+HIT_WINDOW_MISS = 200
+
+# Scoring
+SCORE_PERFECT = 300
+SCORE_GREAT = 100
+SCORE_OKAY = 50
+SCORE_MISS = 0
+
+# Combo multiplier
+BASE_COMBO_MULTIPLIER = 1.0
+
+# Pre-emptive time (time before hit object reaches hit zone)
+PREEMPT_TIME = 1200
+
+# Fade out time
+FADE_OUT_TIME = 200
